@@ -33,7 +33,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("all-images/imgpsh_fullsize_anim.jpg") !important;
+    background-image: url("imgpsh_fullsize_anim.jpg") !important;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,7 +59,7 @@
    
 }
 .right-side{
-    background-image: url("all-images/image2.jpg");
+    background-image: url("image2.jpg");
     background-size: cover;
     height: 100vh;
     background-position: center center;
