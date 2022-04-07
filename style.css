@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.row.content {
+    width: 103% !important;
+  }
+
+.main-area{
+    height: 100vh;
+    display: flex;
+}
+
+.content{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.conten2{
+    height: 100vh;
+}
+
+.box-part{
+    width: 500px;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("all-images/imgpsh_fullsize_anim.jpg") !important;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 10px solid purple;
+    position: relative;
+
+}
+
+.left-side{
+    position:absolute;
+    left: 0;
+    padding-left: 20px;
+    top: 15px;
+  
+  
+}
+
+.right-side{
+    position: absolute;
+    right: 0;
+    top:0;
+    border-left: 10px solid #000;
+   
+}
+.right-side{
+    background-image: url("all-images/image2.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat; 
+
+}
+
+.heading1{
+    font-size: 52px;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 57px;
+}
+
+.heading-prg1 {
+    color: #EFD77C;
+    text-transform: uppercase;
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    
+ }
+
+ .spcl-ch-1 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 0;
+    color: #efd77c;
+    letter-spacing: 2px;
+  }
+
+.heading-prg2 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 31px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+ }
+
+.heading-prg3{
+    color: #efd77c;
+    font-size: 18px;
+    font-style: italic;
+    padding: 10px 0;
+}
+
+.img1, .img2{
+    width: 50px;
+    height: auto;
+}
+.p-div1{
+    font-size: 22px;
+    font-weight: 600;
+    color: #efd77c;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    
+}
+.p-div2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom:0;
+}
+
+
+

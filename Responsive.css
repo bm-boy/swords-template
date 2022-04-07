@@ -1,0 +1,56 @@
+@media only screen and (max-width: 920px) {
+    .col-6.box-part {
+        width: 100%;
+      }
+      .right-side{
+        height: 57vh;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .row.content {
+        width: 107% !important;
+      }
+    .col-6.box-part {
+        width: 107%;
+        height: 100vh;
+      }
+
+    .col-md-6.right-side {
+        height: 38%;
+        position: absolute;
+        top: 68%;
+        border: none;
+      }
+      .heading1 {
+        font-size: 37px;
+        text-align: center;
+    }
+    .heading-prg1 {
+        font-size: 23px;
+        text-align: center;
+      }
+      .spcl-ch-1 {
+        font-size: 18px;
+        text-align: center;
+      }
+      .heading-prg2 {
+        font-size: 15px;
+        text-align: center;
+      }
+      .row.icon-bar {
+        text-align: center;
+        margin-top: 10px;
+      }
+      .ileft, .iright{
+          width: 50% !important;
+      }
+
+
+
+
+
+
+
+
+  }
